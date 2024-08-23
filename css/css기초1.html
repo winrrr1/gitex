@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      
+    <!-- link 태그와 style 태그 순서유지를 꼭 하세요 -->
+    <!-- <link rel="stylesheet" href="./test.css"> -->
+
+        <style>
+          h1{
+            color:rgb(248, 242, 117);  
+          } 
+        </style>
+
+        <link rel="stylesheet" href="./test.css">
+
+    </head>
+
+    <body>
+        <!-- css 우선순위 1. 인라인 2. head의 style 태그 3.외부 css 파일 -->
+        <h1 style="color:blue"> 하늘 </h1>
+        <!-- <h1> 하늘  </h1> -->
+ 
+    </body>
+</html>
+.example {
+    color: blue; /* 텍스트 색상을 지정 */
+    background-color: yellow; /* 요소의 배경 색상을 지정 */
+    font-size: 16px; /* 텍스트의 크기를 지정 */
+    font-family: Arial, sans-serif; /* 텍스트의 글꼴을 지정 */
+    margin: 10px; /* 요소의 외부 여백을 지정 */
+    padding: 10px; /* 요소의 내부 여백을 지정 */
+    border: 1px solid black; /* 요소의 테두리를 지정 */
+    width: 100px; /* 요소의 너비를 지정 */
+    height: 100px; /* 요소의 높이를 지정 */
+    display: block; /* 요소의 표시 방식을 지정 */
+    position: absolute; /* 요소의 위치 지정 방법을 설정 */
+    top: 10px; /* 요소의 위쪽 위치를 지정 */
+    left: 20px; /* 요소의 왼쪽 위치를 지정 */
+    overflow: hidden; /* 넘치는 콘텐츠의 처리를 지정 */
+    text-align: center; /* 텍스트 정렬 방식을 지정 */
+    vertical-align: middle; /* 인라인 요소의 수직 정렬을 지정 */
+    z-index: 10; /* 요소의 쌓임 순서를 지정 */
+    opacity: 0.5; /* 요소의 투명도를 지정 */
+    box-shadow: 2px 2px 5px gray; /* 요소에 그림자를 추가 */
+    border-radius: 10px; /* 요소의 테두리 모서리를 둥글게 만듭니다 */
+    flex-direction: row; /* Flexbox에서 주축 방향을 설정 */
+    align-items: center; /* Flexbox에서 아이템을 수직 정렬 */
+    justify-content: center; /* Flexbox에서 아이템을 수평 정렬 */
+    flex-wrap: wrap; /* Flexbox에서 아이템을 여러 줄로 나열 */
+    flex-grow: 1; /* Flexbox에서 아이템의 성장 비율을 설정 */
+    flex-shrink: 1; /* Flexbox에서 아이템의 축소 비율을 설정 */
+    flex-basis: auto; /* Flexbox에서 아이템의 기본 크기를 설정 */
+    order: 1; /* Flexbox에서 아이템의 순서를 설정 */
+    float: left; /* 요소를 왼쪽으로 떠오르게 설정 */
+    clear: both; /* 요소의 양쪽 float을 해제 */
+    cursor: pointer; /* 커서 모양을 포인터로 설정 */
+    visibility: hidden; /* 요소를 숨김 */
+    content: ''; /* 가상 요소의 콘텐츠를 설정 */
+    quotes: '“' '”' '‘' '’'; /* 인용 부호를 설정 */
+    list-style-type: disc; /* 목록 항목 스타일을 설정 */
+    list-style-position: inside; /* 목록 항목 기호의 위치를 설정 */
+    list-style-image: none; /* 목록 항목 기호의 이미지를 설정 */
+    background-image: url('image.jpg'); /* 배경 이미지를 설정 */
+    background-size: cover; /* 배경 이미지 크기를 설정 */
+    background-repeat: no-repeat; /* 배경 이미지 반복을 설정 */
+    background-position: center; /* 배경 이미지 위치를 설정 */
+    background-attachment: fixed; /* 배경 이미지 고정을 설정 */
+    border-collapse: collapse; /* 테이블 테두리 병합을 설정 */
+    border-spacing: 0; /* 테이블 셀 간격을 설정 */
+    caption-side: top; /* 테이블 캡션 위치를 설정 */
+    empty-cells: show; /* 빈 테이블 셀 표시를 설정 */
+    table-layout: fixed; /* 테이블 레이아웃을 설정 */
+    direction: rtl; /* 텍스트 방향을 설정 */
+    unicode-bidi: bidi-override; /* 텍스트 방향성과 순서를 설정 */
+    text-transform: uppercase; /* 텍스트 대소문자를 설정 */
+    text-decoration: underline; /* 텍스트 밑줄을 설정 */
+    text-shadow: 2px 2px 2px gray; /* 텍스트 그림자를 설정 */
+    white-space: nowrap; /* 공백 처리 방식을 설정 */
+    word-spacing: 2px; /* 단어 간격을 설정 */
+    letter-spacing: 1px; /* 글자 간격을 설정 */
+    line-height: 1.5; /* 줄 높이를 설정 */
+    font-weight: bold; /* 글자 두께를 설정 */
+    font-style: italic; /* 글자 스타일을 설정 */
+    font-variant: small-caps; /* 글자 변형을 설정 */
+    font-stretch: expanded; /* 글자 너비를 설정 */
+    text-overflow: ellipsis; /* 넘치는 텍스트 처리 방식을 설정 */
+    transform: rotate(45deg); /* 요소의 변환을 설정 */
+    transform-origin: center; /* 변환 기준점을 설정 */
+    transition: all 0.3s ease; /* 요소의 전환을 설정 */
+    animation: mymove 5s infinite; /* 애니메이션을 설정 */
+    animation-name: mymove; /* 애니메이션 이름을 설정 */
+    animation-duration: 5s; /* 애니메이션 지속 시간을 설정 */
+    animation-timing-function: ease; /* 애니메이션 타이밍 함수를 설정 */
+    animation-delay: 2s; /* 애니메이션 지연 시간을 설정 */
+    animation-iteration-count: infinite; /* 애니메이션 반복 횟수를 설정 */
+    animation-direction: alternate; /* 애니메이션 방향을 설정 */
+    background-clip: padding-box; /* 배경 클립 영역을 설정 */
+    background-origin: border-box; /* 배경 원점을 설정 */
+    background-blend-mode: multiply; /* 배경 혼합 모드를 설정 */
+    box-sizing: border-box; /* 요소의 크기 계산 방식을 설정 */
+    filter: grayscale(100%); /* 요소의 필터 효과를 설정 */
+    clip-path: circle(50% at 50% 50%); /* 요소의 클립 경로를 설정 */
+    perspective: 1000px; /* 3D 변환의 원근을 설정 */
+    user-select: none; /* 사용자의 텍스트 선택을 금지 */
+    resize: both; /* 요소 크기 조정 가능 여부를 설정 */
+    caret-color: red; /* 텍스트 입력 커서 색상을 설정 */
+    scroll-behavior: smooth; /* 스크롤 동작을 설정 */
+    outline: 2px dashed red; /* 요소의 윤곽선을 설정 */
+    outline-offset: 2px; /* 윤곽선의 오프셋을 설정 */
+    pointer-events: none; /* 요소의 포인터 이벤트를 설정 */
+    isolation: isolate; /* 요소의 혼합 컨텍스트를 설정 */
+    object-fit: cover; /* 이미지나 비디오의 크기 맞춤 방식을 설정 */
+    object-position: center; /* 이미지나 비디오의 위치를 설정 */
+    grid-template-columns: repeat(3, 1fr); /* 그리드의 열 템플릿을 설정 */
+    grid-template-rows: auto; /* 그리드의 행 템플릿을 설정 */
+    grid-column-gap: 10px; /* 그리드 열 간격을 설정 */
+    grid-row-gap: 10px; /* 그리드 행 간격을 설정 */
+    grid-area: header; /* 그리드 영역을 설정 */
+    grid-column: 1 / span 2; /* 그리드 열 시작과 끝을 설정 */
+    grid-row: 1 / span 2; /* 그리드 행 시작과 끝을 설정 */
+    writing-mode: vertical-rl; /* 텍스트 쓰기 모드를 설정 */
+    hyphens: auto; /* 단어 하이픈 처리를 설정 */
+    shape-outside: circle(50%); /* 요소의 외곽 모양을 설정 */
+    tab-size: 4; /* 탭 너비를 설정 */
+    columns: 2; /* 다단 구성의 열 수를 설정 */
+    column-gap: 20px; /* 다단 구성의 열 간격을 설정 */
+    column-rule: 1px solid black; /* 다단 구성의 열 구분선을 설정 */
+}
+
