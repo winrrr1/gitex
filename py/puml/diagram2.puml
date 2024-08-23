@@ -1,0 +1,14 @@
+@startuml
+start
+:Defect detection;
+:data collection;
+:data visualization;
+if (Defective product detected?) then (yes)
+    :Send automatic notifications;
+else (no)
+    :normal processing;
+endif
+:Data analysis and reporting;
+stop
+@enduml
+

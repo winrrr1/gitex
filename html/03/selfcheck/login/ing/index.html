@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login</title>
+</head>
+<body>
+  <!-- 코드를 작성해주세요 -->
+   <form action="#">
+     <fieldset><!--fieldset:네모선생성-->
+      <!-- :legend감쌀때 맨위에 생성 -->
+       <legend> 로그인 </legend>
+       <button type = "button"> <!--버튼생성-->
+        Log in with Google
+       </button>
+     </fieldset>
+     <p>or</p> <!--: p로 감쌀때 or가 아래로 출력-->
+     <fieldset>
+       <legend>일반 로그인</legend>
+       <label for="username">
+        <!-- placeholder=그림자텍스트 -->
+         <input type="text" id="username" name="username" placeholder="Username" >
+       </label>
+       <label for = "password">
+        <input type="password" id="password" name="password" placeholder="Password" >
+       </label>
+       <button type = "submit"> <!-- 버튼생성 -->
+         LOGIN
+       </button> 
+     </fieldset>
+     <a href = "#">Forgot your password?</a>
+   </form>
+</body>
+</html>

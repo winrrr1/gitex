@@ -1,0 +1,12 @@
+@startuml
+start
+:collect image dataset;
+:data preprocessing;
+:CNN model training;
+:CNN model testing;
+:Real-time image processing algorithm development;
+:Development of defect detection result transmission interface;
+stop
+@enduml
+
+

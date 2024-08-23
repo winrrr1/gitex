@@ -1,0 +1,30 @@
+
+<html>
+<head>
+
+    <script>
+        i = 10; // 초기 값 시작하는 숫자 
+        
+        // setInterval 호출 및 interval ID 저장
+        Id = setInterval(p1, 1000);
+
+        // p1 함수 정의
+        function p1() {
+            // i 값을 화면에 출력
+            document.write("<h1>" + i + "</h1>"); // h1이 글짜 크기 h2 h3, 위에 i = 10부터 
+            
+            // i가 0일 때 "스탑" 출력 후 interval 멈추기
+            if (i == 0) { 
+                document.write("=== stop ===");
+                clearInterval(Id); // Id // interval을 중지
+                // return;
+            }
+            i--; // -- i 값을 감소
+            // i++;  // i값을 중가 
+        }   
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

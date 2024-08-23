@@ -1,0 +1,17 @@
+@startuml
+actor "Process Manager"
+actor "Operator"
+actor "Quality Control Manager"
+
+rectangle "Smart Factory System" {
+    usecase "Defect Detection" as UC1
+    usecase "Data Visualization" as UC2
+    usecase "Automatic Notification" as UC3
+    usecase "Data Collection and Analysis" as UC4
+}
+
+"Process Manager" --> UC1
+"Process Manager" --> UC2
+"Process Manager" --> UC3
+"Quality Control Manager" --> UC4
+@enduml
